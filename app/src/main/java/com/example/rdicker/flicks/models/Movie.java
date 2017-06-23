@@ -17,6 +17,7 @@ public class Movie {
     String posterPath; // only the path, not full url
     String backdropPath;
     Double voteAverage;
+    Double popularity;
 
     // general constructor with no arguments
     public Movie() {}
@@ -28,6 +29,7 @@ public class Movie {
         posterPath = object.getString("poster_path");
         backdropPath = object.getString("backdrop_path");
         voteAverage = object.getDouble("vote_average");
+        popularity = object.getDouble("popularity");
     }
 
     public String getTitle() {
@@ -48,5 +50,9 @@ public class Movie {
 
     public Double getVoteAverage() {
         return voteAverage;
+    }
+
+    public Double getPopularity() {
+        return popularity;
     }
 }
