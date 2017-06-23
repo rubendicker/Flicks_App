@@ -2,18 +2,23 @@ package com.example.rdicker.flicks.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 /**
  * Created by rdicker on 6/22/17.
  */
 
+@Parcel // indicates that the Movie class Parcelable
 public class Movie {
 
     // values from API
-    private String title;
-    private String overview;
-    private String posterPath; // only the path, not full url
-    private String backdropPath;
+    String title;
+    String overview;
+    String posterPath; // only the path, not full url
+    String backdropPath;
+
+    // general constructor with no arguments
+    public Movie() {}
 
     // initialize from JSON data
     public Movie(JSONObject object) throws JSONException {
