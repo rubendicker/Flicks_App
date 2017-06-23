@@ -2,7 +2,7 @@
 
 **Flicks** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **6** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
@@ -16,7 +16,7 @@ The following **optional** features are implemented:
   * [X] Title, Poster Image, Overview (Portrait mode)
   * [X] Title, Backdrop Image, Overview (Landscape mode)
 * [X] Display a nice default [placeholder graphic](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-* [ ] Allow user to view details of the movie including ratings and popularity within a separate activity
+* [X] Allow user to view details of the movie including ratings and popularity within a separate activity
 * [ ] Improved the user interface by experimenting with styling and coloring.
 * [X] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library#transformations)
 * [ ] Apply the popular [Butterknife annotation library](http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
